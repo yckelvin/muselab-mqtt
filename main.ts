@@ -23,3 +23,5 @@ MuseIoT.connectgeneralMQTT(
 basic.pause(2000)
 MuseIoT.mqttSubscribe("student/IAQ")
 MuseOLED.writeStringNewLine("subscribe on student/IAQ")
+MuseOLED.clear()
+MuseOLED.writeStringNewLine("MQTT Ready!")
